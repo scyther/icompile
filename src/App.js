@@ -40,7 +40,7 @@ function App() {
     }
 
     // Post request to compile endpoint
-    Axios.post(`http://localhost:8000/run`, {
+    Axios.post(`https://icompile.herokuapp.com/run`, {
       code: userCode,
       language: userLang,
       input: userInput,
